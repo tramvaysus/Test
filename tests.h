@@ -62,3 +62,25 @@ bool full_size_test3()
     Candle candle(10.0, 1100.0, 9.0, 9.5);
     return (candle.full_size() ? true : false);
 }
+
+
+//тест 1 -  body_size
+bool  body_size_test1()
+{
+    Candle candle(10.0, 11.0, 9.0, 9.5);
+    return (candle.body_size() ? true : false);
+}
+
+//тест 2 - body_size
+bool body_size_test2()
+{
+    Candle candle(9.5, 9.0, 11.0, 10.0);
+    return (candle.body_size() ? true : false);
+}
+
+//тест 3 - body_size
+bool body_size_test3()
+{
+    Candle candle(10.0, 1100.0, 9.0, 10.01);
+    return (candle.body_size() ? true : false);
+}
