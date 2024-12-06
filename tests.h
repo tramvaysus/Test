@@ -106,3 +106,23 @@ bool is_green_test3()
     return (candle.is_green() ? true : false);
 }
 
+//тест 1 -  is_red
+bool  is_red_test1()
+{
+    Candle candle(10.0, 11.0, 9.0, 9.5);
+    return (candle.is_red() ? true : false);
+}
+
+//тест 2 - is_red
+bool is_red_test2()
+{
+    Candle candle(10.10, 9.0, 11.0, 10.0);
+    return (candle.is_red() ? true : false);
+}
+
+//тест 3 - is_red
+bool is_red_test3()
+{
+    Candle candle(10.06, 1100.0, 9.0, 10.05);
+    return (candle.is_red() ? true : false);
+}
