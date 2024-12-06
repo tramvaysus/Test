@@ -41,3 +41,24 @@ bool contains_test3()
     Candle candle(10.0, 1100.0, 9.0, 9.5);
     return (candle.contains(1100.0) ? true : false);
 }
+
+//тест 1 -  full_size
+bool full_size_test1()
+{
+    Candle candle(10.0, 11.0, 9.0, 9.5);
+    return (candle.full_size() ? true : false);
+}
+
+//тест 2 - full_size
+bool full_size_test2()
+{
+    Candle candle(10.0, 9.0, 11.0, 9.5);
+    return (candle.full_size() ? true : false);
+}
+
+//тест 3 - full_size
+bool full_size_test3()
+{
+    Candle candle(10.0, 1100.0, 9.0, 9.5);
+    return (candle.full_size() ? true : false);
+}
