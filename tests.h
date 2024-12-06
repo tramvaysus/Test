@@ -84,3 +84,25 @@ bool body_size_test3()
     Candle candle(10.0, 1100.0, 9.0, 10.01);
     return (candle.body_size() ? true : false);
 }
+
+//тест 1 -  is_green
+bool  is_green_test1()
+{
+    Candle candle(0.0, 11.0, 9.0, 10.0);
+    return (candle.is_green() ? true : false);
+}
+
+//тест 2 - is_green
+bool is_green_test2()
+{
+    Candle candle(9.5, 9.0, 11.0, 10.0);
+    return (candle.is_green() ? true : false);
+}
+
+//тест 3 - is_green
+bool is_green_test3()
+{
+    Candle candle(10.0, 1100.0, 9.0, 10.01);
+    return (candle.is_green() ? true : false);
+}
+
